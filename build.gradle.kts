@@ -20,6 +20,9 @@ dependencies {
     implementation("com.h2database:h2:2.2.224")
     // https://mvnrepository.com/artifact/org.springframework/spring-jdbc
     implementation("org.springframework:spring-jdbc:6.1.1")
+    // https://mvnrepository.com/artifact/com.zaxxer/HikariCP
+    implementation("com.zaxxer:HikariCP:5.1.0")
+
 }
 
 tasks.test {
